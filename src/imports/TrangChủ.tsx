@@ -941,7 +941,7 @@ function Frame42() {
   return (
     <div className="basis-0 content-stretch flex gap-[6px] grow items-center min-h-px min-w-px relative shrink-0">
       <IconFillFacebook1 />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] text-nowrap transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Facebook</p>
       </div>
     </div>
@@ -949,12 +949,11 @@ function Frame42() {
 }
 
 function Layer() {
-  const { theme } = useTheme();
   return (
     <div className="absolute inset-[24.94%_6.2%_24.95%_6.19%]" data-name="Layer_1">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9 6">
         <g id="Layer_1">
-          <path d={svgPaths.p28076c00} fill={theme === 'dark' ? '#ffffff' : '#333333'} id="Vector" opacity="0.5" />
+          <path d={svgPaths.p28076c00} fill="var(--fill-0, #333333)" id="Vector" opacity="0.5" />
         </g>
       </svg>
     </div>
@@ -971,8 +970,8 @@ function Fi1() {
 
 function Frame43() {
   return (
-    <div className="bg-[#edf3fa] dark:bg-[#3a3a3a] relative rounded-[8px] shrink-0 w-full transition-colors">
-      <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.05)] dark:border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[8px]" />
+    <div className="bg-[#edf3fa] relative rounded-[8px] shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.05)] border-solid inset-0 pointer-events-none rounded-[8px]" />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[12px] relative w-full">
           <Frame42 />
@@ -986,7 +985,7 @@ function Frame43() {
 function Frame40() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] w-full transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] w-full">
         <p className="leading-[21px]">Nền tảng</p>
       </div>
       <Frame43 />
@@ -1011,7 +1010,7 @@ function Frame44() {
   return (
     <div className="basis-0 content-stretch flex gap-[6px] grow items-center min-h-px min-w-px relative shrink-0">
       <IconFillFacebook2 />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] text-nowrap transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Tăng Like Bài Viết</p>
       </div>
     </div>
@@ -1019,12 +1018,11 @@ function Frame44() {
 }
 
 function Layer2() {
-  const { theme } = useTheme();
   return (
     <div className="absolute inset-[24.94%_6.2%_24.95%_6.19%]" data-name="Layer_1">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9 6">
         <g id="Layer_1">
-          <path d={svgPaths.p28076c00} fill={theme === 'dark' ? '#ffffff' : '#333333'} id="Vector" opacity="0.5" />
+          <path d={svgPaths.p28076c00} fill="var(--fill-0, #333333)" id="Vector" opacity="0.5" />
         </g>
       </svg>
     </div>
@@ -1041,8 +1039,8 @@ function Fi2() {
 
 function Frame45() {
   return (
-    <div className="bg-[#edf3fa] dark:bg-[#3a3a3a] relative rounded-[8px] shrink-0 w-full transition-colors">
-      <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.05)] dark:border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[8px]" />
+    <div className="bg-[#edf3fa] relative rounded-[8px] shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.05)] border-solid inset-0 pointer-events-none rounded-[8px]" />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[12px] relative w-full">
           <Frame44 />
@@ -1056,7 +1054,7 @@ function Frame45() {
 function Frame41() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] w-full transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] w-full">
         <p className="leading-[21px]">Dịch vụ</p>
       </div>
       <Frame45 />
@@ -2578,95 +2576,54 @@ function SearchBar() {
 
 function IosChromeBar({ onMenuClick }: { onMenuClick: () => void }) {
   const { theme, toggleTheme } = useTheme();
-  const [showLanguageMenu, setShowLanguageMenu] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState('Tiếng Việt');
-  
-  const languages = ['Tiếng Việt', 'English', '中文', '日本語'];
   
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] h-[80px] relative shrink-0 w-full transition-colors px-4 border-b border-[rgba(0,0,0,0.08)] dark:border-[rgba(255,255,255,0.1)] rounded-bl-[24px] rounded-br-[24px]" data-name="Mobile Top Bar">
-      <div className="h-full relative w-full flex items-center justify-between gap-2">
+    <div className="bg-[#2a2a2a] dark:bg-[#2a2a2a] h-[80px] relative shrink-0 w-full transition-colors px-4" data-name="Mobile Top Bar">
+      <div className="h-full relative rounded-[inherit] w-full flex items-center justify-between gap-3">
         {/* Left Section: Hamburger Menu & Search */}
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-3">
           <button
             onClick={onMenuClick}
-            className="p-2 hover:bg-gray-100 dark:hover:bg-[#3a3a3a] rounded-lg transition-colors"
+            className="p-2 hover:bg-[#3a3a3a] rounded-lg transition-colors"
             aria-label="Open menu"
           >
             <svg className="w-[24px] h-[24px]" fill="none" viewBox="0 0 24 24">
-              <path d="M3 5H21" stroke="currentColor" className="text-[#333333] dark:text-white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-              <path d="M3 12H21" stroke="currentColor" className="text-[#333333] dark:text-white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-              <path d="M3 19H21" stroke="currentColor" className="text-[#333333] dark:text-white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+              <path d="M3 5H21" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+              <path d="M3 12H21" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+              <path d="M3 19H21" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
             </svg>
           </button>
           
-          <button 
-            onClick={() => {
-              const event = new CustomEvent('search-clicked');
-              window.dispatchEvent(event);
-            }}
-            className="p-2 hover:bg-gray-100 dark:hover:bg-[#3a3a3a] rounded-lg transition-colors" 
-            aria-label="Search"
-          >
+          <button className="p-2 hover:bg-[#3a3a3a] rounded-lg transition-colors" aria-label="Search">
             <svg className="w-[24px] h-[24px]" fill="none" viewBox="0 0 24 24">
-              <circle cx="11" cy="11" r="7" stroke="currentColor" className="text-[#333333] dark:text-white" strokeWidth="1.5" />
-              <path d="M20 20L17 17" stroke="currentColor" className="text-[#333333] dark:text-white" strokeLinecap="round" strokeWidth="1.5" />
+              <circle cx="11" cy="11" r="7" stroke="white" strokeWidth="1.5" />
+              <path d="M20 20L17 17" stroke="white" strokeLinecap="round" strokeWidth="1.5" />
             </svg>
           </button>
         </div>
         
         {/* Center: Language Selector */}
-        <div className="flex-1 min-w-0 max-w-[180px] relative">
-          <button 
-            onClick={() => setShowLanguageMenu(!showLanguageMenu)}
-            className="w-full bg-[#f5f5f5] dark:bg-[#3a3a3a] hover:bg-[#e8e8e8] dark:hover:bg-[#454545] rounded-[24px] px-3 py-2 flex items-center justify-between transition-colors border border-[rgba(0,0,0,0.06)] dark:border-[rgba(255,255,255,0.08)]"
-          >
-            <span className="text-[#333333] dark:text-white text-[13px] truncate">{selectedLanguage}</span>
-            <svg className="w-4 h-4 shrink-0 ml-1" fill="none" viewBox="0 0 16 16">
-              <path d="M4 6L8 10L12 6" stroke="currentColor" className="text-[#333333] dark:text-white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+        <div className="flex-1 max-w-[200px]">
+          <button className="w-full bg-[#3a3a3a] hover:bg-[#454545] rounded-[24px] px-4 py-2.5 flex items-center justify-between transition-colors">
+            <span className="text-white text-[14px]">Chọn ngôn ngữ</span>
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 16 16">
+              <path d="M4 6L8 10L12 6" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
             </svg>
           </button>
-          
-          {showLanguageMenu && (
-            <>
-              <div 
-                className="fixed inset-0 z-40" 
-                onClick={() => setShowLanguageMenu(false)}
-              />
-              <div className="absolute top-full mt-2 left-0 right-0 bg-white dark:bg-[#2a2a2a] rounded-[16px] shadow-lg border border-[rgba(0,0,0,0.08)] dark:border-[rgba(255,255,255,0.1)] overflow-hidden z-50">
-                {languages.map((lang) => (
-                  <button
-                    key={lang}
-                    onClick={() => {
-                      setSelectedLanguage(lang);
-                      setShowLanguageMenu(false);
-                    }}
-                    className={`w-full px-3 py-2.5 text-left text-[13px] hover:bg-gray-100 dark:hover:bg-[#3a3a3a] transition-colors ${
-                      selectedLanguage === lang 
-                        ? 'bg-[#f5f5f5] dark:bg-[#3a3a3a] text-[#3167f3]' 
-                        : 'text-[#333333] dark:text-white'
-                    }`}
-                  >
-                    {lang}
-                  </button>
-                ))}
-              </div>
-            </>
-          )}
         </div>
         
         {/* Right Section: Dark Mode Toggle & User Avatar */}
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-3">
           <button 
             onClick={toggleTheme}
-            className="p-2 hover:bg-gray-100 dark:hover:bg-[#3a3a3a] rounded-lg transition-colors" 
+            className="p-2 hover:bg-[#3a3a3a] rounded-lg transition-colors" 
             aria-label="Toggle theme"
           >
             <svg className="w-[24px] h-[24px]" fill="none" viewBox="0 0 24 24">
               {theme === 'light' ? (
                 <>
-                  <circle cx="12" cy="12" r="4" stroke="currentColor" className="text-[#333333]" strokeWidth="1.5" />
-                  <path d="M12 2V4M12 20V22M22 12H20M4 12H2M19.07 4.93L17.66 6.34M6.34 17.66L4.93 19.07M19.07 19.07L17.66 17.66M6.34 6.34L4.93 4.93" stroke="currentColor" className="text-[#333333]" strokeLinecap="round" strokeWidth="1.5" />
+                  <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5" />
+                  <path d="M12 2V4M12 20V22M22 12H20M4 12H2M19.07 4.93L17.66 6.34M6.34 17.66L4.93 19.07M19.07 19.07L17.66 17.66M6.34 6.34L4.93 4.93" stroke="white" strokeLinecap="round" strokeWidth="1.5" />
                 </>
               ) : (
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="white" strokeWidth="1.5" />
@@ -2674,11 +2631,11 @@ function IosChromeBar({ onMenuClick }: { onMenuClick: () => void }) {
             </svg>
           </button>
           
-          <button className="w-[40px] h-[40px] rounded-full overflow-visible bg-[#e8e8e8] dark:bg-[#3a3a3a] border-2 border-[rgba(0,0,0,0.08)] dark:border-[rgba(255,255,255,0.12)] flex items-center justify-center" aria-label="User profile">
+          <button className="w-[40px] h-[40px] rounded-full overflow-hidden bg-[#3a3a3a]" aria-label="User profile">
             <img 
               src={imgEllipse1} 
               alt="User avatar" 
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-cover"
             />
           </button>
         </div>
@@ -3145,17 +3102,17 @@ export default function TrangCh() {
 
       {/* Side Menu */}
       <div 
-        className={`fixed top-0 left-0 h-full w-[258px] bg-white dark:bg-[#2a2a2a] z-50 transform transition-transform duration-300 ease-in-out shadow-2xl ${
+        className={`fixed top-0 left-0 h-full w-[258px] bg-white dark:bg-[#2a2a2a] z-50 transform transition-transform duration-300 ease-in-out ${
           isSideMenuOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
         {/* Close Button */}
         <button
           onClick={() => setIsSideMenuOpen(false)}
-          className="absolute top-6 right-6 p-2.5 bg-white dark:bg-[#3a3a3a] hover:bg-gray-100 dark:hover:bg-[#454545] rounded-full transition-all shadow-lg border border-gray-200 dark:border-gray-700 z-10"
+          className="absolute top-4 right-4 p-2 hover:bg-gray-100 dark:hover:bg-[#3a3a3a] rounded-lg transition-colors z-10"
           aria-label="Close menu"
         >
-          <X className="w-5 h-5 text-gray-700 dark:text-gray-200 stroke-[2.5]" />
+          <X className="w-6 h-6 text-gray-600 dark:text-gray-300" />
         </button>
         
         <LeftMenu />
