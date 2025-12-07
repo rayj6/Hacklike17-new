@@ -41,7 +41,7 @@ function Group10() {
 
 function Frame18() {
   return (
-    <div className="content-stretch flex flex-col items-start leading-[0] relative shrink-0 text-[#333333] dark:text-white w-[142px]">
+    <div className="content-stretch flex flex-col items-start leading-[0] relative shrink-0 text-[#333333] w-[142px]">
       <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[18px] w-full">
         <p className="leading-[27px]">User name</p>
       </div>
@@ -65,17 +65,14 @@ function IconOutlineVi() {
           <path
             d={svgPaths.p3df53080}
             id="Vector"
-            stroke="var(--stroke-0, #333333)"
-            className="dark:stroke-white"
+            stroke="var(--stroke-0, white)"
             strokeWidth="1.5"
           />
           <path
             d={svgPaths.p29e01c00}
-            fill="var(--fill-0, #333333)"
-            className="dark:fill-white"
+            fill="var(--fill-0, white)"
             id="Vector_2"
-            stroke="var(--stroke-0, #333333)"
-            className="dark:stroke-white"
+            stroke="var(--stroke-0, white)"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="1.5"
@@ -83,8 +80,7 @@ function IconOutlineVi() {
           <path
             d={svgPaths.p24fb8680}
             id="Vector_3"
-            stroke="var(--stroke-0, #333333)"
-            className="dark:stroke-white"
+            stroke="var(--stroke-0, white)"
             strokeWidth="1.5"
           />
         </g>
@@ -96,15 +92,15 @@ function IconOutlineVi() {
 function Container() {
   return (
     <div
-      className="bg-[rgba(51,51,51,0.08)] dark:bg-[rgba(255,255,255,0.15)] content-stretch flex gap-[4px] items-center px-[12px] py-[8px] relative rounded-[8px] shrink-0"
+      className="bg-[rgba(51,51,51,0.08)] content-stretch flex gap-[4px] items-center px-[12px] py-[8px] relative rounded-[8px] shrink-0"
       data-name="Container"
     >
       <div
         aria-hidden="true"
-        className="absolute border border-solid border-[rgba(51,51,51,0.15)] dark:border-[rgba(255,255,255,0.2)] inset-0 pointer-events-none rounded-[8px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)]"
+        className="absolute border border-solid border-white inset-0 pointer-events-none rounded-[8px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)]"
       />
       <IconOutlineVi />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[14px] text-nowrap text-[#333333] dark:text-white">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[14px] text-nowrap text-white">
         <p className="leading-[21px] whitespace-pre">1.234.567 ₫</p>
       </div>
     </div>
@@ -173,7 +169,7 @@ function Container2() {
       className="content-stretch flex flex-col items-start relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[14px] text-nowrap text-[#333333] dark:text-white">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[14px] text-nowrap text-white">
         <p className="leading-[21px] whitespace-pre">1.234.567 ₫</p>
       </div>
     </div>
@@ -253,7 +249,7 @@ function Container4() {
       className="content-stretch flex flex-col items-start relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[14px] text-nowrap text-[#333333] dark:text-white">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[14px] text-nowrap text-white">
         <p className="leading-[21px] whitespace-pre">Thành viên</p>
       </div>
     </div>
@@ -356,8 +352,11 @@ function Frame23() {
 function Frame31() {
   return (
     <div
-      className="content-stretch flex flex-col gap-[20px] sm:gap-[30px] items-start overflow-clip p-4 sm:p-[24px] relative rounded-[24px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full transition-colors bg-transparent"
-      style={{ backgroundImage: "none" }}
+      className="content-stretch flex flex-col gap-[20px] sm:gap-[30px] items-start overflow-clip p-4 sm:p-[24px] relative rounded-[24px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full transition-colors dark:bg-gradient-to-br dark:from-[#3167f3] dark:to-[#2a2a2a]"
+      style={{
+        backgroundImage:
+          "var(--tw-gradient-stops, linear-gradient(-43.9653deg, rgb(60, 170, 255) 11.545%, rgb(255, 255, 255) 99.234%), linear-gradient(90px, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%))",
+      }}
     >
       <Group10 />
       <Frame23 />
@@ -496,7 +495,7 @@ function Frame46() {
   return (
     <div className="basis-0 content-stretch flex gap-[6px] grow items-center min-h-px min-w-px relative shrink-0">
       <IconFillFacebook />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] text-nowrap transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Facebook</p>
       </div>
     </div>
@@ -504,7 +503,6 @@ function Frame46() {
 }
 
 function Layer() {
-  const { theme } = useTheme();
   return (
     <div className="absolute inset-[24.95%_6.19%]" data-name="Layer_1">
       <svg
@@ -516,7 +514,7 @@ function Layer() {
         <g id="Layer_1">
           <path
             d={svgPaths.p28076c00}
-            fill={theme === "dark" ? "#ffffff" : "#333333"}
+            fill="var(--fill-0, #333333)"
             id="Vector"
             opacity="0.5"
           />
@@ -539,10 +537,10 @@ function Fi2() {
 
 function Frame47() {
   return (
-    <div className="bg-[#edf3fa] dark:bg-[#3a3a3a] relative rounded-[8px] shrink-0 w-full transition-colors">
+    <div className="bg-[#edf3fa] relative rounded-[8px] shrink-0 w-full">
       <div
         aria-hidden="true"
-        className="absolute border border-[rgba(0,0,0,0.05)] dark:border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[8px]"
+        className="absolute border border-[rgba(0,0,0,0.05)] border-solid inset-0 pointer-events-none rounded-[8px]"
       />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[12px] relative w-full">
@@ -557,7 +555,7 @@ function Frame47() {
 function Frame48() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-[8px] grow items-start min-h-px min-w-px relative shrink-0">
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] w-full transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] w-full">
         <p className="leading-[21px]">Nền tảng</p>
       </div>
       <Frame47 />
@@ -598,7 +596,7 @@ function Frame51() {
   return (
     <div className="basis-0 content-stretch flex gap-[6px] grow items-center min-h-px min-w-px relative shrink-0">
       <IconFillFacebook1 />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] text-nowrap transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Tăng Like Bài Viết</p>
       </div>
     </div>
@@ -606,7 +604,6 @@ function Frame51() {
 }
 
 function Layer2() {
-  const { theme } = useTheme();
   return (
     <div className="absolute inset-[24.95%_6.19%]" data-name="Layer_1">
       <svg
@@ -618,7 +615,7 @@ function Layer2() {
         <g id="Layer_1">
           <path
             d={svgPaths.p28076c00}
-            fill={theme === "dark" ? "#ffffff" : "#333333"}
+            fill="var(--fill-0, #333333)"
             id="Vector"
             opacity="0.5"
           />
@@ -641,10 +638,10 @@ function Fi3() {
 
 function Frame52() {
   return (
-    <div className="bg-[#edf3fa] dark:bg-[#3a3a3a] relative rounded-[8px] shrink-0 w-full transition-colors">
+    <div className="bg-[#edf3fa] relative rounded-[8px] shrink-0 w-full">
       <div
         aria-hidden="true"
-        className="absolute border border-[rgba(0,0,0,0.05)] dark:border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[8px]"
+        className="absolute border border-[rgba(0,0,0,0.05)] border-solid inset-0 pointer-events-none rounded-[8px]"
       />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[12px] relative w-full">
@@ -659,7 +656,7 @@ function Frame52() {
 function Frame49() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-[8px] grow items-start min-h-px min-w-px relative shrink-0">
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] w-full transition-colors">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] w-full">
         <p className="leading-[21px]">Dịch vụ</p>
       </div>
       <Frame52 />
@@ -3345,11 +3342,11 @@ function Item() {
     <div className="relative shrink-0 w-full" data-name="Item">
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start pl-[64px] pr-0 py-0 relative w-full">
-          <div className="-webkit-box flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[12px] w-[min-content]">
+          <div className="-webkit-box flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] dark:text-gray-300 text-[12px] w-[min-content]">
             <p className="leading-[21px]">{`Nhận lại đơn hàng tăng like số lương lớn( ở nhóm "dịchvụ khác" ), tối thiểu mua 300k like, không giới hạn loại fanpage. `}</p>
           </div>
           <BackgroundShadow />
-          <div className="absolute flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] left-0 opacity-60 text-[#333333] text-[11px] text-nowrap top-[10.5px] translate-y-[-50%]">
+          <div className="absolute flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] left-0 opacity-60 text-[#333333] dark:text-gray-400 text-[11px] text-nowrap top-[10.5px] translate-y-[-50%]">
             <p className="leading-[16.5px] whitespace-pre">16/11</p>
           </div>
         </div>
@@ -3402,7 +3399,7 @@ function Button2() {
 function Gra() {
   return (
     <div
-      className="absolute bg-gradient-to-b bottom-0 content-stretch flex flex-col from-[53.659%] from-[rgba(255,255,255,0)] items-center justify-center left-[24px] px-0 py-[24px] right-[24px] to-[#ffffff] to-[47.944%]"
+      className="absolute bg-gradient-to-b bottom-0 content-stretch flex flex-col from-[53.659%] from-[rgba(255,255,255,0)] items-center justify-center left-[24px] px-0 py-[24px] right-[24px] to-[47.944%]"
       data-name="Gra"
     >
       <Button2 />
@@ -3412,12 +3409,12 @@ function Gra() {
 
 function Frame26() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] min-h-[400px] relative rounded-[24px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] min-h-[200px] relative rounded-[24px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full transition-colors">
       <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[16px] min-h-[400px] items-center p-[24px] relative w-full">
+        <div className="content-stretch flex flex-col gap-[16px] min-h-[200px] items-center p-[24px] relative w-full">
           <Header1 />
           <Container27 />
-          {/* <Gra /> */}
+          <Gra />
         </div>
       </div>
     </div>
