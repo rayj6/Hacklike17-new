@@ -173,7 +173,7 @@ function Frame21() {
 
 function Background() {
   return (
-    <div className="bg-white dark:bg-[#3a3a3a] h-[8px] overflow-clip relative rounded-[99px] shrink-0 w-full transition-colors" data-name="Background">
+    <div className="bg-white dark:bg-[#2a2a2a] h-[8px] overflow-clip relative rounded-[99px] shrink-0 w-full transition-colors" data-name="Background">
       <div className="absolute flex h-[8px] items-center justify-center left-0 top-1/2 translate-y-[-50%] w-[158px]">
         <div className="flex-none rotate-[180deg] scale-y-[-100%]">
           <div className="bg-[#3167f3] h-[8px] w-[158px]" />
@@ -250,7 +250,7 @@ function Frame100() {
     : { backgroundImage: "linear-gradient(0.301709deg, rgb(60, 170, 255) 20.727%, rgb(255, 255, 255) 99.639%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" };
   
   return (
-    <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-all" style={backgroundStyle}>
+    <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-all" style={backgroundStyle}>
       <Group10 />
       <Frame25 />
     </div>
@@ -352,7 +352,7 @@ function Gra() {
 
 function Frame31() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col gap-[16px] items-center overflow-clip p-[16px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col gap-[16px] items-center overflow-clip p-[16px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors">
       <Header />
       <Container5 />
       <Gra />
@@ -520,7 +520,7 @@ function Frame102() {
 
 function Frame99() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col gap-[12px] items-start p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col gap-[12px] items-start p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors">
       <Header1 />
       <Frame102 />
     </div>
@@ -669,7 +669,7 @@ function Frame34() {
 
 function Frame27() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors">
       <div className="size-full">
         <div className="content-stretch flex flex-col gap-[12px] items-start p-[12px] relative w-full">
           <Header2 />
@@ -742,7 +742,7 @@ function Frame36() {
 
 function Frame28() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors">
       <div className="size-full">
         <div className="content-stretch flex flex-col gap-[12px] items-start p-[12px] relative w-full">
           <Header3 />
@@ -808,7 +808,7 @@ function Frame97() {
 
 function Frame29() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors">
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[12px] relative w-full">
           <Frame97 />
@@ -941,7 +941,7 @@ function Frame42() {
   return (
     <div className="basis-0 content-stretch flex gap-[6px] grow items-center min-h-px min-w-px relative shrink-0">
       <IconFillFacebook1 />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] text-nowrap transition-colors">
         <p className="leading-[21px] whitespace-pre">Facebook</p>
       </div>
     </div>
@@ -970,7 +970,7 @@ function Fi1() {
 
 function Frame43() {
   return (
-    <div className="bg-[#edf3fa] relative rounded-[8px] shrink-0 w-full">
+    <div className="bg-[#edf3fa] dark:bg-[#2a2a2a] relative rounded-[8px] shrink-0 w-full transition-colors">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.05)] border-solid inset-0 pointer-events-none rounded-[8px]" />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[12px] relative w-full">
@@ -985,7 +985,7 @@ function Frame43() {
 function Frame40() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] w-full">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] w-full transition-colors">
         <p className="leading-[21px]">Nền tảng</p>
       </div>
       <Frame43 />
@@ -1010,7 +1010,7 @@ function Frame44() {
   return (
     <div className="basis-0 content-stretch flex gap-[6px] grow items-center min-h-px min-w-px relative shrink-0">
       <IconFillFacebook2 />
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] text-nowrap transition-colors">
         <p className="leading-[21px] whitespace-pre">Tăng Like Bài Viết</p>
       </div>
     </div>
@@ -1039,7 +1039,7 @@ function Fi2() {
 
 function Frame45() {
   return (
-    <div className="bg-[#edf3fa] relative rounded-[8px] shrink-0 w-full">
+    <div className="bg-[#edf3fa] dark:bg-[#2a2a2a] relative rounded-[8px] shrink-0 w-full transition-colors">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.05)] border-solid inset-0 pointer-events-none rounded-[8px]" />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[12px] relative w-full">
@@ -1054,7 +1054,7 @@ function Frame45() {
 function Frame41() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] w-full">
+      <div className="flex flex-col font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-white text-[14px] w-full transition-colors">
         <p className="leading-[21px]">Dịch vụ</p>
       </div>
       <Frame45 />
@@ -1081,9 +1081,9 @@ function Container6() {
 function Frame60() {
   return (
     <div className="content-stretch flex font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold gap-[2px] items-center leading-[1.5] relative shrink-0 text-[14px] text-nowrap whitespace-pre">
-      <p className="relative shrink-0 text-[#333333]">{` Server 5 :`}</p>
-      <p className="relative shrink-0 text-[#333333]">Like việt.</p>
-      <p className="relative shrink-0 text-[#1bb42d]">23 ₫</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">{` Server 5 :`}</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">Like việt.</p>
+      <p className="relative shrink-0 text-[#ef4444] dark:text-[#ff5555]">23 ₫</p>
     </div>
   );
 }
@@ -1141,8 +1141,8 @@ function MoT() {
 
 function Frame62() {
   return (
-    <div className="bg-[rgba(203,212,234,0.1)] relative rounded-[12px] shrink-0 w-full">
-      <div aria-hidden="true" className="absolute border border-[rgba(51,51,51,0.08)] border-solid inset-0 pointer-events-none rounded-[12px]" />
+    <div className="bg-[rgba(34,197,94,0.1)] relative rounded-[12px] shrink-0 w-full">
+      <div aria-hidden="true" className="absolute border border-[rgba(34,197,94,0.2)] border-solid inset-0 pointer-events-none rounded-[12px]" />
       <div className="size-full">
         <div className="content-stretch flex flex-col gap-[12px] items-start p-[12px] relative w-full">
           <Frame61 />
@@ -1164,9 +1164,9 @@ function Container7() {
 function Frame77() {
   return (
     <div className="content-stretch flex font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold gap-[2px] items-center leading-[1.5] relative shrink-0 text-[14px] text-nowrap whitespace-pre">
-      <p className="relative shrink-0 text-[#333333]">{` Server 4: `}</p>
-      <p className="relative shrink-0 text-[#333333]">Like việt.</p>
-      <p className="relative shrink-0 text-[#1bb42d]">23 ₫</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">{` Server 4: `}</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">Like việt.</p>
+      <p className="relative shrink-0 text-[#ef4444] dark:text-[#ff5555]">23 ₫</p>
     </div>
   );
 }
@@ -1203,8 +1203,8 @@ function Frame79() {
 
 function Frame63() {
   return (
-    <div className="bg-[rgba(203,212,234,0.1)] relative rounded-[12px] shrink-0 w-full">
-      <div aria-hidden="true" className="absolute border border-[rgba(51,51,51,0.08)] border-solid inset-0 pointer-events-none rounded-[12px]" />
+    <div className="bg-[rgba(34,197,94,0.1)] dark:bg-[rgba(34,197,94,0.15)] relative rounded-[12px] shrink-0 w-full transition-colors duration-300">
+      <div aria-hidden="true" className="absolute border border-[rgba(34,197,94,0.2)] dark:border-[rgba(34,197,94,0.3)] border-solid inset-0 pointer-events-none rounded-[12px] transition-colors duration-300" />
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[12px] relative w-full">
           <Frame79 />
@@ -1225,9 +1225,9 @@ function Container8() {
 function Frame80() {
   return (
     <div className="content-stretch flex font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold gap-[2px] items-center leading-[1.5] relative shrink-0 text-[14px] text-nowrap whitespace-pre">
-      <p className="relative shrink-0 text-[#333333]">{` Server 3: `}</p>
-      <p className="relative shrink-0 text-[#333333]">Like việt.</p>
-      <p className="relative shrink-0 text-[#1bb42d]">23 ₫</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">{` Server 3: `}</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">Like việt.</p>
+      <p className="relative shrink-0 text-[#ef4444] dark:text-[#ff5555]">23 ₫</p>
     </div>
   );
 }
@@ -1264,8 +1264,8 @@ function Frame82() {
 
 function Frame64() {
   return (
-    <div className="bg-[rgba(203,212,234,0.1)] relative rounded-[12px] shrink-0 w-full">
-      <div aria-hidden="true" className="absolute border border-[rgba(51,51,51,0.08)] border-solid inset-0 pointer-events-none rounded-[12px]" />
+    <div className="bg-[rgba(34,197,94,0.1)] dark:bg-[rgba(34,197,94,0.15)] relative rounded-[12px] shrink-0 w-full transition-colors duration-300">
+      <div aria-hidden="true" className="absolute border border-[rgba(34,197,94,0.2)] dark:border-[rgba(34,197,94,0.3)] border-solid inset-0 pointer-events-none rounded-[12px] transition-colors duration-300" />
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[12px] relative w-full">
           <Frame82 />
@@ -1286,9 +1286,9 @@ function Container9() {
 function Frame83() {
   return (
     <div className="content-stretch flex font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold gap-[2px] items-center leading-[1.5] relative shrink-0 text-[14px] text-nowrap whitespace-pre">
-      <p className="relative shrink-0 text-[#333333]">{` Server 2: `}</p>
-      <p className="relative shrink-0 text-[#333333]">Like việt.</p>
-      <p className="relative shrink-0 text-[#1bb42d]">23 ₫</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">{` Server 2: `}</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">Like việt.</p>
+      <p className="relative shrink-0 text-[#ef4444] dark:text-[#ff5555]">23 ₫</p>
     </div>
   );
 }
@@ -1325,8 +1325,8 @@ function Frame86() {
 
 function Frame65() {
   return (
-    <div className="bg-[rgba(203,212,234,0.1)] relative rounded-[12px] shrink-0 w-full">
-      <div aria-hidden="true" className="absolute border border-[rgba(51,51,51,0.08)] border-solid inset-0 pointer-events-none rounded-[12px]" />
+    <div className="bg-[rgba(34,197,94,0.1)] dark:bg-[rgba(34,197,94,0.15)] relative rounded-[12px] shrink-0 w-full transition-colors duration-300">
+      <div aria-hidden="true" className="absolute border border-[rgba(34,197,94,0.2)] dark:border-[rgba(34,197,94,0.3)] border-solid inset-0 pointer-events-none rounded-[12px] transition-colors duration-300" />
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[12px] relative w-full">
           <Frame86 />
@@ -1347,9 +1347,9 @@ function Container10() {
 function Frame87() {
   return (
     <div className="content-stretch flex font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold gap-[2px] items-center leading-[1.5] relative shrink-0 text-[14px] text-nowrap whitespace-pre">
-      <p className="relative shrink-0 text-[#333333]">{` Server 1: `}</p>
-      <p className="relative shrink-0 text-[#333333]">Like việt.</p>
-      <p className="relative shrink-0 text-[#1bb42d]">23 ₫</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">{` Server 1: `}</p>
+      <p className="relative shrink-0 text-[#333333] dark:text-gray-300">Like việt.</p>
+      <p className="relative shrink-0 text-[#ef4444] dark:text-[#ff5555]">23 ₫</p>
     </div>
   );
 }
@@ -1386,8 +1386,8 @@ function Frame89() {
 
 function Frame66() {
   return (
-    <div className="bg-[rgba(203,212,234,0.1)] relative rounded-[12px] shrink-0 w-full">
-      <div aria-hidden="true" className="absolute border border-[rgba(51,51,51,0.08)] border-solid inset-0 pointer-events-none rounded-[12px]" />
+    <div className="bg-[rgba(34,197,94,0.1)] dark:bg-[rgba(34,197,94,0.15)] relative rounded-[12px] shrink-0 w-full transition-colors duration-300">
+      <div aria-hidden="true" className="absolute border border-[rgba(34,197,94,0.2)] dark:border-[rgba(34,197,94,0.3)] border-solid inset-0 pointer-events-none rounded-[12px] transition-colors duration-300" />
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[12px] relative w-full">
           <Frame89 />
@@ -2191,7 +2191,7 @@ function Frame84() {
 
 function Frame30() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col gap-[12px] items-center justify-end p-[12px] relative rounded-[24px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors">
+    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col gap-[12px] items-center justify-end p-[12px] relative rounded-[24px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors">
       <Header4 />
       <Frame96 />
       <Frame84 />
@@ -2340,7 +2340,7 @@ function Container19() {
 
 function BaiVit() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col items-start p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors" data-name="Bài viết">
+    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col items-start p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors" data-name="Bài viết">
       <Container19 />
     </div>
   );
@@ -2487,7 +2487,7 @@ function Container27() {
 
 function BaiVit1() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col items-start p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-full max-w-[343px] transition-colors" data-name="Bài viết">
+    <div className="bg-white dark:bg-[#2a2a2a] content-stretch flex flex-col items-start p-[12px] relative rounded-[16px] shadow-[0px_2px_6px_0px_rgba(189,189,189,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] shrink-0 w-[96%] transition-colors" data-name="Bài viết">
       <Container27 />
     </div>
   );
@@ -2496,7 +2496,7 @@ function BaiVit1() {
 function Frame35() {
   return (
     <div className="content-stretch flex flex-col gap-[16px] items-center w-full pt-[16px] pb-[16px]">
-      <div className="h-[193px] relative rounded-[12px] shrink-0 w-full max-w-[343px]" data-name="image 1427">
+      <div className="h-[193px] relative rounded-[12px] shrink-0 w-[96%]" data-name="image 1427">
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[12px] size-full" src={imgImage1427} />
       </div>
       <Frame100 />
@@ -2578,60 +2578,60 @@ function IosChromeBar({ onMenuClick }: { onMenuClick: () => void }) {
   const { theme, toggleTheme } = useTheme();
   
   return (
-    <div className="bg-[#2a2a2a] dark:bg-[#2a2a2a] h-[80px] relative shrink-0 w-full transition-colors px-4" data-name="Mobile Top Bar">
-      <div className="h-full relative rounded-[inherit] w-full flex items-center justify-between gap-3">
+    <div className="bg-white dark:bg-[#2a2a2a] h-[80px] relative shrink-0 w-full transition-colors" data-name="Mobile Top Bar">
+      <div className="h-full relative rounded-[inherit] w-full flex items-center justify-between gap-3 px-4 max-[500px]:px-0">
         {/* Left Section: Hamburger Menu & Search */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 max-[500px]:pl-2">
           <button
             onClick={onMenuClick}
-            className="p-2 hover:bg-[#3a3a3a] rounded-lg transition-colors"
+            className="p-2 hover:bg-gray-100 dark:hover:bg-[#2a2a2a] rounded-lg transition-colors"
             aria-label="Open menu"
           >
             <svg className="w-[24px] h-[24px]" fill="none" viewBox="0 0 24 24">
-              <path d="M3 5H21" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-              <path d="M3 12H21" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-              <path d="M3 19H21" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+              <path d="M3 5H21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="text-gray-800 dark:text-white" />
+              <path d="M3 12H21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="text-gray-800 dark:text-white" />
+              <path d="M3 19H21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="text-gray-800 dark:text-white" />
             </svg>
           </button>
           
-          <button className="p-2 hover:bg-[#3a3a3a] rounded-lg transition-colors" aria-label="Search">
+          <button className="p-2 hover:bg-gray-100 dark:hover:bg-[#2a2a2a] rounded-lg transition-colors" aria-label="Search">
             <svg className="w-[24px] h-[24px]" fill="none" viewBox="0 0 24 24">
-              <circle cx="11" cy="11" r="7" stroke="white" strokeWidth="1.5" />
-              <path d="M20 20L17 17" stroke="white" strokeLinecap="round" strokeWidth="1.5" />
+              <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="1.5" className="text-gray-800 dark:text-white" />
+              <path d="M20 20L17 17" stroke="currentColor" strokeLinecap="round" strokeWidth="1.5" className="text-gray-800 dark:text-white" />
             </svg>
           </button>
         </div>
         
         {/* Center: Language Selector */}
         <div className="flex-1 max-w-[200px]">
-          <button className="w-full bg-[#3a3a3a] hover:bg-[#454545] rounded-[24px] px-4 py-2.5 flex items-center justify-between transition-colors">
-            <span className="text-white text-[14px]">Chọn ngôn ngữ</span>
+          <button className="w-full bg-gray-100 dark:bg-[#2a2a2a] hover:bg-gray-200 dark:hover:bg-[#333] rounded-[24px] px-4 py-2.5 flex items-center justify-between transition-colors">
+            <span className="text-gray-800 dark:text-white text-[14px]">Chọn ngôn ngữ</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 16 16">
-              <path d="M4 6L8 10L12 6" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+              <path d="M4 6L8 10L12 6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="text-gray-800 dark:text-white" />
             </svg>
           </button>
         </div>
         
         {/* Right Section: Dark Mode Toggle & User Avatar */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 max-[500px]:pr-2">
           <button 
             onClick={toggleTheme}
-            className="p-2 hover:bg-[#3a3a3a] rounded-lg transition-colors" 
+            className="p-2 hover:bg-gray-100 dark:hover:bg-[#2a2a2a] rounded-lg transition-colors" 
             aria-label="Toggle theme"
           >
             <svg className="w-[24px] h-[24px]" fill="none" viewBox="0 0 24 24">
               {theme === 'light' ? (
                 <>
-                  <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5" />
-                  <path d="M12 2V4M12 20V22M22 12H20M4 12H2M19.07 4.93L17.66 6.34M6.34 17.66L4.93 19.07M19.07 19.07L17.66 17.66M6.34 6.34L4.93 4.93" stroke="white" strokeLinecap="round" strokeWidth="1.5" />
+                  <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.5" className="text-gray-800" />
+                  <path d="M12 2V4M12 20V22M22 12H20M4 12H2M19.07 4.93L17.66 6.34M6.34 17.66L4.93 19.07M19.07 19.07L17.66 17.66M6.34 6.34L4.93 4.93" stroke="currentColor" strokeLinecap="round" strokeWidth="1.5" className="text-gray-800" />
                 </>
               ) : (
-                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="white" strokeWidth="1.5" />
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" strokeWidth="1.5" className="text-white" />
               )}
             </svg>
           </button>
           
-          <button className="w-[40px] h-[40px] rounded-full overflow-hidden bg-[#3a3a3a]" aria-label="User profile">
+          <button className="w-[40px] h-[40px] rounded-full overflow-hidden bg-gray-200 dark:bg-[#2a2a2a]" aria-label="User profile">
             <img 
               src={imgEllipse1} 
               alt="User avatar" 
@@ -3091,7 +3091,7 @@ export default function TrangCh() {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
-    <div className="bg-[#edf3fa] dark:bg-[#1a1a1a] relative rounded-tl-[32px] rounded-tr-[32px] h-full w-full overflow-hidden transition-colors" data-name="Trang chủ">
+    <div className="bg-[#edf3fa] dark:bg-[#1a1a1a] relative rounded-tl-[32px] rounded-tr-[32px] h-full w-screen overflow-hidden transition-colors max-[500px]:rounded-none" data-name="Trang chủ">
       {/* Overlay */}
       {isSideMenuOpen && (
         <div 
@@ -3109,7 +3109,7 @@ export default function TrangCh() {
         {/* Close Button */}
         <button
           onClick={() => setIsSideMenuOpen(false)}
-          className="absolute top-4 right-4 p-2 hover:bg-gray-100 dark:hover:bg-[#3a3a3a] rounded-lg transition-colors z-10"
+          className="absolute top-4 right-4 p-2 hover:bg-gray-100 dark:hover:bg-[#2a2a2a] rounded-lg transition-colors z-10"
           aria-label="Close menu"
         >
           <X className="w-6 h-6 text-gray-600 dark:text-gray-300" />
@@ -3119,24 +3119,24 @@ export default function TrangCh() {
       </div>
 
       {/* Fixed Top Bar */}
-      <div className="fixed top-0 left-0 right-0 w-full flex justify-center z-20 bg-[#edf3fa] dark:bg-[#1a1a1a] transition-colors">
-        <div className="w-full max-w-[425px]">
+      <div className="fixed top-0 left-0 right-0 z-20 bg-[#edf3fa] dark:bg-[#1a1a1a] transition-colors w-screen flex justify-center max-[500px]:justify-start">
+        <div className="w-full max-w-[425px] max-[500px]:max-w-none">
           <Frame13 onMenuClick={() => setIsSideMenuOpen(true)} />
         </div>
       </div>
       
       {/* Scrollable Content */}
       <div className="absolute top-0 bottom-0 left-0 right-0 overflow-y-auto overflow-x-hidden pt-[120px] pb-[102px]">
-        <div className="w-full flex justify-center px-4">
-          <div className="w-full max-w-[425px]">
+        <div className="w-full flex justify-center max-[500px]:justify-start">
+          <div className="w-full max-w-[425px] max-[500px]:max-w-none">
             <Frame35 />
           </div>
         </div>
       </div>
       
       {/* Fixed Bottom Navigation */}
-      <div className="fixed bottom-0 left-0 right-0 w-full flex justify-center z-20">
-        <div className="w-full max-w-[425px]">
+      <div className="fixed bottom-0 left-0 right-0 w-full flex justify-center max-[500px]:justify-start z-20">
+        <div className="w-full max-w-[425px] max-[500px]:max-w-none">
           <Navigation />
         </div>
       </div>

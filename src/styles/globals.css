@@ -224,13 +224,12 @@ html {
 }
 
 /* Dark mode input and radio button backgrounds */
-.dark [data-name="Input"],
-.dark [data-name="Container"] {
-  background-color: #3a3a3a !important;
+.dark [data-name="Input"] {
+  background-color: #2a2a2a !important;
 }
 
 .dark [data-name="Background+Border"] {
-  background-color: #3a3a3a !important;
+  background-color: #2a2a2a !important;
 }
 
 /* Dark mode border colors */
@@ -240,4 +239,9 @@ html {
 
 .dark [class*="border-[rgba(51,51,51"] {
   border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Dark mode background color overrides */
+.dark [class*="bg-[#edf3fa]"] {
+  background-color: #2a2a2a !important;
 }

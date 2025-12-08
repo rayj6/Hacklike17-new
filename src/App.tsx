@@ -37,7 +37,7 @@ export default function App() {
   if (isMobile) {
     return (
       <ThemeProvider>
-        <div className="h-screen bg-[#edf3fa] dark:bg-[#1a1a1a] overflow-hidden w-full max-w-[425px] mx-auto">
+        <div className="h-screen bg-[#edf3fa] dark:bg-[#1a1a1a] overflow-hidden w-screen transition-colors duration-300">
           <TrangCh />
         </div>
       </ThemeProvider>
@@ -47,33 +47,33 @@ export default function App() {
   // Desktop/Tablet layout - use original design with responsive menu
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-gray-50 dark:bg-[#1a1a1a] flex relative overflow-hidden">
+      <div className="min-h-screen bg-gray-50 dark:bg-[#1a1a1a] flex relative overflow-hidden transition-colors duration-300">
         {/* Side Menu */}
         <div 
-          className={`h-screen transition-all duration-300 flex-shrink-0 ${
-            isMenuVisible ? "w-[258px]" : "w-0"
+          className={`h-screen transition-all duration-300 ease-in-out flex-shrink-0 ${
+            isMenuVisible ? "w-[250px]" : "w-0"
           }`}
         >
-          <div className={`transition-opacity duration-300 h-full ${isMenuVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+          <div className={`transition-opacity duration-300 ease-in-out h-full ${isMenuVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
             <LeftMenu />
           </div>
         </div>
         
         {/* Main Content Area */}
-        <div className="flex-1 overflow-auto w-full min-w-0">
+        <div className="flex-1 overflow-auto w-full min-w-0 transition-all duration-300 ease-in-out">
           <Frame16 />
         </div>
         
         {/* Toggle Button - Desktop & Tablet */}
         <button
           onClick={() => setIsMenuVisible(!isMenuVisible)}
-          className={`absolute top-[68px] bg-white rounded-full shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)] p-[10px] w-[35px] h-[35px] flex items-center justify-center transition-all duration-300 hover:bg-gray-50 z-50 ${
-            isMenuVisible ? "left-[234px]" : "left-[10px]"
+          className={`absolute top-[68px] bg-white dark:bg-gray-800 rounded-full shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)] dark:shadow-[0px_4px_10px_0px_rgba(0,0,0,0.3)] p-[10px] w-[35px] h-[35px] flex items-center justify-center transition-all duration-300 ease-in-out hover:bg-gray-50 dark:hover:bg-gray-700 z-50 ${
+            isMenuVisible ? "left-[226px]" : "left-[10px]"
           }`}
           aria-label={isMenuVisible ? "Hide menu" : "Show menu"}
         >
           <ChevronRight 
-            className={`w-[15px] h-[15px] text-gray-600 transition-transform duration-300 ${
+            className={`w-[15px] h-[15px] text-gray-600 dark:text-gray-300 transition-transform duration-300 ease-in-out ${
               isMenuVisible ? "rotate-180" : "rotate-0"
             }`}
           />

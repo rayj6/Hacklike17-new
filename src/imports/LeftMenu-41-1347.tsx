@@ -35,7 +35,7 @@ function Item() {
     <div className="relative shrink-0 w-full" data-name="Item">
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[8px] relative w-full">
-          <div className="flex flex-col font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[#a0a5b3] dark:text-[#888] text-[12px] w-full transition-colors">
+          <div className="flex flex-col font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[#a0a5b3] text-[12px] w-full">
             <p className="leading-[18px]">Menu</p>
           </div>
         </div>
@@ -78,7 +78,7 @@ function Frame7() {
 
 function MenuItem() {
   return (
-    <div className="bg-[rgba(49,103,243,0.08)] dark:bg-[rgba(49,103,243,0.15)] relative rounded-[12px] shrink-0 w-full transition-colors" data-name="Menu item">
+    <div className="bg-[rgba(49,103,243,0.08)] relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame7 />
@@ -93,8 +93,8 @@ function IconOutlineProfile() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/Outline/Profile">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Icon/Outline/Profile">
-          <path d={svgPaths.p709d428} id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d={svgPaths.p26f85e40} id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p709d428} id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p26f85e40} id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
         </g>
       </svg>
     </div>
@@ -104,7 +104,7 @@ function IconOutlineProfile() {
 function Container1() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Cập nhật thông tin</p>
       </div>
     </div>
@@ -122,7 +122,7 @@ function Frame8() {
 
 function MenuItem1() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame8 />
@@ -137,12 +137,12 @@ function IconOutlinePayment() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/Outline/payment">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Icon/Outline/payment">
-          <path d={svgPaths.p2eb18210} id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M16.7998 10.2501H16.8078" id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M17.6001 19V13.75" id="Vector_3" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d={svgPaths.pcf2080} id="Vector_4" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M7.2002 10.2501H7.2082" id="Vector_5" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d={svgPaths.p228c9a80} id="Vector_6" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p2eb18210} id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M16.7998 10.2501H16.8078" id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M17.6001 19V13.75" id="Vector_3" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.pcf2080} id="Vector_4" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M7.2002 10.2501H7.2082" id="Vector_5" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p228c9a80} id="Vector_6" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
         </g>
       </svg>
     </div>
@@ -152,7 +152,7 @@ function IconOutlinePayment() {
 function Container2() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Nạp tiền</p>
       </div>
     </div>
@@ -170,7 +170,7 @@ function Frame9() {
 
 function MenuItem2() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame9 />
@@ -185,10 +185,10 @@ function IconOutlineChat() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/Outline/chat">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Icon/Outline/chat">
-          <path d={svgPaths.p3aa6bd80} id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M8.7996 11.9997H8.8076" id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M11.9996 11.9997H12.0076" id="Vector_3" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M15.1996 11.9997H15.2076" id="Vector_4" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p3aa6bd80} id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M8.7996 11.9997H8.8076" id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M11.9996 11.9997H12.0076" id="Vector_3" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M15.1996 11.9997H15.2076" id="Vector_4" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
         </g>
       </svg>
     </div>
@@ -198,7 +198,7 @@ function IconOutlineChat() {
 function Container3() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Liên hệ hỗ trợ</p>
       </div>
     </div>
@@ -219,7 +219,7 @@ function Icon() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -228,7 +228,7 @@ function Icon() {
 
 function MenuItem3() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame10 />
@@ -248,9 +248,9 @@ function IconOutlineHistory() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/Outline/history">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Icon/Outline/history">
-          <path d={svgPaths.p3b3ef900} id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M4 4V8.44444H8.44444" id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d={svgPaths.pf725b80} id="Vector_3" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p3b3ef900} id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M4 4V8.44444H8.44444" id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.pf725b80} id="Vector_3" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
         </g>
       </svg>
     </div>
@@ -260,7 +260,7 @@ function IconOutlineHistory() {
 function Container4() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Nhật Ký Hoạt Động</p>
       </div>
     </div>
@@ -278,7 +278,7 @@ function Frame11() {
 
 function MenuItem4() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame11 />
@@ -293,9 +293,9 @@ function IconOutlinePiggy() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/Outline/piggy">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Icon/Outline/piggy">
-          <path d={svgPaths.p1cd3a680} id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M15.2002 10.4648H15.2082" id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d={svgPaths.p9487c00} id="Vector_3" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p1cd3a680} id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M15.2002 10.4648H15.2082" id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d={svgPaths.p9487c00} id="Vector_3" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
         </g>
       </svg>
     </div>
@@ -305,7 +305,7 @@ function IconOutlinePiggy() {
 function Container5() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Kiếm tiền</p>
       </div>
     </div>
@@ -323,7 +323,7 @@ function Frame12() {
 
 function MenuItem5() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame12 />
@@ -338,11 +338,11 @@ function IconOutlineApi() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/Outline/api">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Icon/Outline/api">
-          <path d="M12 12H12.008" id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M15.2 12H15.208" id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M16 8L20 12L16 16" id="Vector_3" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M8 8L4 12L8 16" id="Vector_4" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-          <path d="M8.8 12H8.808" id="Vector_5" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M12 12H12.008" id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M15.2 12H15.208" id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M16 8L20 12L16 16" id="Vector_3" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M8 8L4 12L8 16" id="Vector_4" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          <path d="M8.8 12H8.808" id="Vector_5" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
         </g>
       </svg>
     </div>
@@ -352,7 +352,7 @@ function IconOutlineApi() {
 function Container6() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">{`Website Đại lý & API`}</p>
       </div>
     </div>
@@ -370,7 +370,7 @@ function Frame13() {
 
 function MenuItem6() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame13 />
@@ -386,9 +386,9 @@ function Group() {
       <div className="absolute inset-[-5%_-4.69%]">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 17">
           <g id="Group 2144770810">
-            <path d={svgPaths.p14d5d300} id="Vector" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-            <path d={svgPaths.p22f38c80} id="Vector_2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
-            <path d="M0.75 5.48708H16.7496" id="Vector_3" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#e0e0e0]" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+            <path d={svgPaths.p14d5d300} id="Vector" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+            <path d={svgPaths.p22f38c80} id="Vector_2" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+            <path d="M0.75 5.48708H16.7496" id="Vector_3" stroke="var(--stroke-0, #333333)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
           </g>
         </svg>
       </div>
@@ -407,7 +407,7 @@ function IconOutlineGem() {
 function Container7() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">{`Bảng giá & Cấp bậc`}</p>
       </div>
     </div>
@@ -425,7 +425,7 @@ function Frame14() {
 
 function MenuItem7() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame14 />
@@ -456,7 +456,7 @@ function Item1() {
     <div className="relative shrink-0 w-full" data-name="Item">
       <div className="size-full">
         <div className="content-stretch flex flex-col items-start p-[8px] relative w-full">
-          <div className="flex flex-col font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[#a0a5b3] dark:text-[#888] text-[12px] w-full transition-colors">
+          <div className="flex flex-col font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[#a0a5b3] text-[12px] w-full">
             <p className="leading-[18px]">Danh sách dịch vụ</p>
           </div>
         </div>
@@ -478,7 +478,7 @@ function IconFillDchVKhac() {
 function Container8() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Dịch vụ khác</p>
       </div>
     </div>
@@ -499,7 +499,7 @@ function Icon1() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -508,7 +508,7 @@ function Icon1() {
 
 function MenuItem8() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame15 />
@@ -539,7 +539,7 @@ function IconFillFacebook() {
 function Container9() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Facebook</p>
       </div>
     </div>
@@ -560,7 +560,7 @@ function Icon2() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -569,7 +569,7 @@ function Icon2() {
 
 function MenuItem9() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame16 />
@@ -580,6 +580,14 @@ function MenuItem9() {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+function Frame27() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full">
+      <MenuItem9 />
     </div>
   );
 }
@@ -626,7 +634,7 @@ function IconFillIns() {
 function Container10() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Instagram</p>
       </div>
     </div>
@@ -647,7 +655,7 @@ function Icon3() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -656,7 +664,7 @@ function Icon3() {
 
 function MenuItem10() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame17 />
@@ -676,8 +684,8 @@ function IconFillThreads() {
     <div className="relative shrink-0 size-[24px]" data-name="Icon/fill/threads">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g clipPath="url(#clip0_1_1570)" id="Icon/fill/threads">
-          <path d={svgPaths.pf271f70} fill="var(--fill-0, black)" className="dark:fill-white" id="Vector" />
-          <path d={svgPaths.p22532480} fill="var(--fill-0, white)" className="dark:fill-black" id="Vector_2" />
+          <path d={svgPaths.pf271f70} fill="var(--fill-0, black)" id="Vector" />
+          <path d={svgPaths.p22532480} fill="var(--fill-0, white)" id="Vector_2" />
         </g>
         <defs>
           <clipPath id="clip0_1_1570">
@@ -692,7 +700,7 @@ function IconFillThreads() {
 function Container11() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Threads</p>
       </div>
     </div>
@@ -713,7 +721,7 @@ function Icon4() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -722,7 +730,7 @@ function Icon4() {
 
 function MenuItem11() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame18 />
@@ -757,7 +765,7 @@ function IconFillTiktok() {
 function Container12() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">TikTok</p>
       </div>
     </div>
@@ -778,7 +786,7 @@ function Icon5() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -787,7 +795,7 @@ function Icon5() {
 
 function MenuItem12() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame19 />
@@ -815,7 +823,7 @@ function IconFillShopee() {
 function Container13() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Shopee</p>
       </div>
     </div>
@@ -836,7 +844,7 @@ function Icon6() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -845,7 +853,7 @@ function Icon6() {
 
 function MenuItem13() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame20 />
@@ -881,7 +889,7 @@ function IconFillTelegram() {
 function Container14() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Telegram</p>
       </div>
     </div>
@@ -902,7 +910,7 @@ function Icon7() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -911,7 +919,7 @@ function Icon7() {
 
 function MenuItem14() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame21 />
@@ -931,8 +939,8 @@ function IconFillX() {
     <div className="overflow-clip relative shrink-0 size-[24px]" data-name="Icon/fill/x">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="Group">
-          <path d={svgPaths.pf271f70} fill="var(--fill-0, black)" className="dark:fill-white" id="Vector" />
-          <path d={svgPaths.p266ab40} fill="var(--fill-0, white)" className="dark:fill-black" id="Vector_2" />
+          <path d={svgPaths.pf271f70} fill="var(--fill-0, black)" id="Vector" />
+          <path d={svgPaths.p266ab40} fill="var(--fill-0, white)" id="Vector_2" />
         </g>
       </svg>
     </div>
@@ -942,7 +950,7 @@ function IconFillX() {
 function Container15() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Twitter</p>
       </div>
     </div>
@@ -963,7 +971,7 @@ function Icon8() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -972,7 +980,7 @@ function Icon8() {
 
 function MenuItem15() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame22 />
@@ -1002,7 +1010,7 @@ function IconFillLazada() {
 function Container16() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Lazada</p>
       </div>
     </div>
@@ -1023,7 +1031,7 @@ function Icon9() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -1032,7 +1040,7 @@ function Icon9() {
 
 function MenuItem16() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame23 />
@@ -1072,7 +1080,7 @@ function IconFillGoogle() {
 function Container17() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Dịch Vụ Google</p>
       </div>
     </div>
@@ -1093,7 +1101,7 @@ function Icon10() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -1102,7 +1110,7 @@ function Icon10() {
 
 function MenuItem17() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame24 />
@@ -1130,7 +1138,7 @@ function IconFillExtentions() {
 function Container18() {
   return (
     <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0" data-name="Container">
-      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] dark:text-[#e0e0e0] text-[14px] text-nowrap transition-colors">
+      <div className="capitalize flex flex-col font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#333333] text-[14px] text-nowrap">
         <p className="leading-[21px] whitespace-pre">Tiện Ích Miễn Phí</p>
       </div>
     </div>
@@ -1151,7 +1159,7 @@ function Icon11() {
     <div className="relative size-[14px]" data-name="Icon">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
         <g id="Icon">
-          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" className="dark:fill-[#888]" id="Vector" />
+          <path d={svgPaths.p2dcd4400} fill="var(--fill-0, #333333)" id="Vector" />
         </g>
       </svg>
     </div>
@@ -1160,7 +1168,7 @@ function Icon11() {
 
 function MenuItem18() {
   return (
-    <div className="relative rounded-[12px] shrink-0 w-full hover:bg-[rgba(0,0,0,0.02)] dark:hover:bg-[rgba(255,255,255,0.05)] transition-colors cursor-pointer" data-name="Menu item">
+    <div className="relative rounded-[12px] shrink-0 w-full" data-name="Menu item">
       <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center p-[8px] relative w-full">
           <Frame25 />
@@ -1180,7 +1188,7 @@ function Frame26() {
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
       <Item1 />
       <MenuItem8 />
-      <MenuItem9 />
+      <Frame27 />
       <MenuItem10 />
       <MenuItem11 />
       <MenuItem12 />
@@ -1201,7 +1209,7 @@ function Frame6() {
       <div className="h-0 relative shrink-0 w-full">
         <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(51, 51, 51, 1)" } as React.CSSProperties}>
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 226 1">
-            <path d="M0 0.5H226" id="Vector 2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#555]" strokeOpacity="0.08" />
+            <path d="M0 0.5H226" id="Vector 2" stroke="var(--stroke-0, #333333)" strokeOpacity="0.08" />
           </svg>
         </div>
       </div>
@@ -1217,7 +1225,7 @@ function Frame3() {
       <div className="h-0 relative shrink-0 w-full">
         <div className="absolute bottom-[-0.5px] left-0 right-0 top-[-0.5px]" style={{ "--stroke-0": "rgba(51, 51, 51, 1)" } as React.CSSProperties}>
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 226 1">
-            <path d="M0 0.5H226" id="Vector 2" stroke="var(--stroke-0, #333333)" className="dark:stroke-[#555]" strokeOpacity="0.08" />
+            <path d="M0 0.5H226" id="Vector 2" stroke="var(--stroke-0, #333333)" strokeOpacity="0.08" />
           </svg>
         </div>
       </div>
@@ -1226,12 +1234,41 @@ function Frame3() {
   );
 }
 
+function Frame() {
+  return (
+    <div className="relative size-[15px]">
+      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 15 15">
+        <g id="Frame 1261153936">
+          <path d={svgPaths.p34f1100} fill="var(--fill-0, #333333)" id="Vector" opacity="0.5" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame1() {
+  return (
+    <div className="bg-white content-stretch flex items-center justify-center p-[10px] relative rounded-[30px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.1)] w-[35px]">
+      <div className="flex items-center justify-center relative shrink-0 size-[15px]" style={{ "--transform-inner-width": "15", "--transform-inner-height": "15" } as React.CSSProperties}>
+        <div className="flex-none rotate-[270deg]">
+          <Frame />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function LeftMenu() {
   return (
-    <div className="bg-white dark:bg-[#2a2a2a] relative rounded-br-[24px] rounded-tr-[24px] shadow-[0px_2px_6px_0px_rgba(187,187,187,0.1)] dark:shadow-[0px_2px_6px_0px_rgba(0,0,0,0.3)] size-full overflow-hidden transition-colors" data-name="Left Menu">
-      <div className="size-full overflow-y-auto">
-        <div className="content-stretch flex flex-col gap-[24px] items-start px-[12px] py-[24px] relative w-full min-h-full">
+    <div className="bg-white relative rounded-br-[24px] rounded-tr-[24px] shadow-[0px_2px_6px_0px_rgba(187,187,187,0.1)] size-full" data-name="Left Menu">
+      <div className="size-full">
+        <div className="content-stretch flex flex-col gap-[24px] items-start px-[12px] py-[24px] relative size-full">
           <Frame3 />
+          <div className="absolute flex items-center justify-center left-[234px] top-[68px] w-[35px]">
+            <div className="flex-none rotate-[180deg] scale-y-[-100%]">
+              <Frame1 />
+            </div>
+          </div>
         </div>
       </div>
     </div>
